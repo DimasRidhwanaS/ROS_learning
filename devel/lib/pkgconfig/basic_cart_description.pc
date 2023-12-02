@@ -1,0 +1,8 @@
+prefix=/home/dimas_ridhwana/myrobot_ws/devel
+
+Name: basic_cart_description
+Description: Description of basic_cart_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

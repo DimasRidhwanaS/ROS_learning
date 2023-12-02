@@ -1,0 +1,8 @@
+prefix=/home/dimas_ridhwana/myrobot_ws/devel
+
+Name: learn_robot1_pkg
+Description: Description of learn_robot1_pkg
+Version: 0.0.0
+Cflags: -I/home/dimas_ridhwana/myrobot_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

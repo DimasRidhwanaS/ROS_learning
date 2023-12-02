@@ -1,0 +1,8 @@
+prefix=/home/dimas_ridhwana/myrobot_ws/install
+
+Name: learn_simulation_pkg
+Description: Description of learn_simulation_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

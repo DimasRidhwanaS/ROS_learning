@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="learn_robot1_pkg" type="simple_service_node" name="trying_simple_service_node" output="screen"></node>
+    <node pkg="learn_robot1_pkg" type="simple_client_node" name="tryinng_client_node" output="screen"></node>
+</launch>    
+
+<!-- type is the file name  -->

@@ -1,0 +1,2 @@
+basic_cart_description:learn_robot1_pkg:learn_simulation_pkg:learn_urdf_pkg
+-DCATKIN_DEVEL_PREFIX=/home/dimas_ridhwana/myrobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dimas_ridhwana/myrobot_ws/install -G Unix Makefiles
