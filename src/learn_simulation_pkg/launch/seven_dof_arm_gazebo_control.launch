@@ -3,6 +3,7 @@
 <launch>
   <!-- Launch Gazebo  -->
   <include file="$(find learn_simulation_pkg)/launch/seven_dof_arm_world.launch" />   
+  <!-- <include file="$(find learn_simulation_pkg)/launch/seven_dof_arm_with_rgbd_world.launch" />    -->
 
 
   <!-- Load joint controller configurations from YAML file to parameter server -->
@@ -22,9 +23,17 @@
 
 
   <!-- convert joint states to TF transforms for rviz, etc -->
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
-	respawn="false" output="screen">
+  <node name="robot_state_publisher" 
+        pkg="robot_state_publisher" 
+        type="robot_state_publisher"
+	      respawn="false" output="screen">
     <remap from="/joint_states" to="/seven_dof_arm/joint_states" />
   </node>
+
+  <!-- <node name="joint_state_publisher_gui" 
+        pkg="joint_state_publisher_gui" 
+        type="joint_state_publisher_gui" >
+    <remap from="/joint_states" to="/seven_dof_arm/joint_states" />
+  </node> -->
 
 </launch>

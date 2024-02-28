@@ -131,8 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dimas_ridhwana/myrobot_ws/build/gtest/cmake_install.cmake")
+  include("/home/dimas_ridhwana/myrobot_ws/build/learn_moveit_pkg/cmake_install.cmake")
   include("/home/dimas_ridhwana/myrobot_ws/build/learn_robot1_pkg/cmake_install.cmake")
+  include("/home/dimas_ridhwana/myrobot_ws/build/testing_secvice_pkg/cmake_install.cmake")
   include("/home/dimas_ridhwana/myrobot_ws/build/basic_cart_description/cmake_install.cmake")
+  include("/home/dimas_ridhwana/myrobot_ws/build/turtlesim_cleaner/cmake_install.cmake")
   include("/home/dimas_ridhwana/myrobot_ws/build/learn_urdf_pkg/cmake_install.cmake")
   include("/home/dimas_ridhwana/myrobot_ws/build/learn_simulation_pkg/cmake_install.cmake")
 

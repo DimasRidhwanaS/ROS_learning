@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   urdf
   xacro
+  rospy
 )
 
 ## System dependencies are found with CMake's conventions

@@ -1,0 +1,8 @@
+prefix=/home/dimas_ridhwana/myrobot_ws/devel
+
+Name: learn_moveit_pkg
+Description: Description of learn_moveit_pkg
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
