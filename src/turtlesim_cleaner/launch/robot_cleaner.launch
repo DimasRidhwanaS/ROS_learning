@@ -1,0 +1,8 @@
+<launch>
+    <arg name="node_start_delay" default="1.0" /> 
+    <!-- <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen"/> -->
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"  output="screen"/>
+    <node name="turtlesim_cleaner_node" pkg="turtlesim_cleaner" type="turtlesim_cleaner_node" output="screen"  launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " />
+        <!-- The second node implements delay using the code below -->
+        <!-- launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "  -->
+</launch>
